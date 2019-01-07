@@ -6,10 +6,9 @@ public class SmartPhone extends MusicPhone {
 		System.out.println("다운로드해서 음악재생");
 	}
 	//이중상속 보충
-	private void call(){
-		System.out.println( "통화기능시작" );
-	}
-	@Override
+	//이 과정
+	
+	@Override 
 	public void execute( String function ) {
 		if ( function.equals("앱") ) {
 			playApp();
